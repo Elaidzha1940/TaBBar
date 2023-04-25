@@ -12,6 +12,7 @@
 		E40CB80C29F83DDD00B278FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40CB80B29F83DDD00B278FD /* Assets.xcassets */; };
 		E40CB81029F83DDD00B278FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40CB80F29F83DDD00B278FD /* Preview Assets.xcassets */; };
 		E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */; };
+		E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81829F83EF900B278FD /* TabMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E40CB80D29F83DDD00B278FD /* Tabbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tabbar.entitlements; sourceTree = "<group>"; };
 		E40CB80F29F83DDD00B278FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuViewComponent.swift; sourceTree = "<group>"; };
+		E40CB81829F83EF900B278FD /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E40CB80D29F83DDD00B278FD /* Tabbar.entitlements */,
 				E40CB80E29F83DDD00B278FD /* Preview Content */,
 				E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */,
+				E40CB81829F83EF900B278FD /* TabMenu.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */,
 				E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */,
 				E40CB80A29F83DDD00B278FD /* ContentView.swift in Sources */,
 				E40CB80829F83DDD00B278FD /* TabbarApp.swift in Sources */,
