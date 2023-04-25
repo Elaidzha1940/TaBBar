@@ -14,6 +14,7 @@
 		E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */; };
 		E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81829F83EF900B278FD /* TabMenu.swift */; };
 		E40CB81B29F83FC600B278FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81A29F83FC600B278FD /* MainView.swift */; };
+		E45722C329F84338008429A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C229F84338008429A6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuViewComponent.swift; sourceTree = "<group>"; };
 		E40CB81829F83EF900B278FD /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
 		E40CB81A29F83FC600B278FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E45722C229F84338008429A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		E45722BC29F84236008429A6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E45722C229F84338008429A6 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */,
 				E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */,
 				E40CB80A29F83DDD00B278FD /* HomeVeiw.swift in Sources */,
+				E45722C329F84338008429A6 /* HomeView.swift in Sources */,
 				E40CB81B29F83FC600B278FD /* MainView.swift in Sources */,
 				E40CB80829F83DDD00B278FD /* TabbarApp.swift in Sources */,
 			);
