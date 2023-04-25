@@ -1,9 +1,13 @@
+//  /*
 //
-//  TabMenu.swift
-//  Tabbar
+//  Project: Tabbar
+//  File: TabMenu.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 26.04.2023
 //
-//  Created by Elaidzha Shchukin on 26.04.2023.
+//  Status
 //
+//  */
 
 import SwiftUI
 

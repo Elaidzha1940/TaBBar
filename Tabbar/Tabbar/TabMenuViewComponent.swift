@@ -1,9 +1,13 @@
+//  /*
 //
-//  TabMenuViewComponent.swift
-//  Tabbar
+//  Project: Tabbar
+//  File: TabMenuViewComponent.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 25.04.2023
 //
-//  Created by Elaidzha Shchukin on 25.04.2023.
+//  Status
 //
+//  */
 
 import SwiftUI
 
