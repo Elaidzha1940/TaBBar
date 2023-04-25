@@ -1,5 +1,6 @@
 //
-//  ContentView.swift
+//
+//  HomeView.swift
 //  Tabbar
 //
 //  Created by Elaidzha Shchukin on 25.04.2023.
@@ -10,12 +11,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Text("Home")
         }
-        .padding()
     }
 }
 

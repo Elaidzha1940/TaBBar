@@ -19,7 +19,7 @@ struct TabMenu: View {
     func getTabButton(type: MenuType) -> some View {
         switch type {
         case .home:
-            TabMenuViewComponent(is_active: self.is_active, type: .home, text: "Главная", activeImage: Resources.System.housefill.assetName, inactiveImage: Resources.System.house.assetName)
+            TabMenuViewComponent(is_active: self.is_active, type: .home, text: "Главная", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
                     is_active = .home
@@ -27,7 +27,7 @@ struct TabMenu: View {
             }
 
         case .lenta:
-            TabMenuViewComponent(is_active: self.is_active, type: .lenta, text: "Лента", activeImage: Resources.System.firefill.assetName, inactiveImage: Resources.System.fire.assetName)
+            TabMenuViewComponent(is_active: self.is_active, type: .lenta, text: "Лента", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
                     is_active = .lenta
@@ -35,7 +35,7 @@ struct TabMenu: View {
             }
           
         case .chats:
-            TabMenuViewComponent(is_active: self.is_active, type: .chats, text: "Чаты", activeImage: Resources.System.messagefill.assetName, inactiveImage: Resources.System.message.assetName)
+            TabMenuViewComponent(is_active: self.is_active, type: .chats, text: "Чаты", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
                     is_active = .chats
@@ -43,14 +43,14 @@ struct TabMenu: View {
             }
             
         case .calendar:
-            TabMenuViewComponent(is_active: self.is_active, type: .calendar, text: "Записи", activeImage: Resources.System.calendarfill.assetName, inactiveImage: Resources.System.calendar.assetName)
+            TabMenuViewComponent(is_active: self.is_active, type: .calendar, text: "Записи", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
                     is_active = .calendar
                 }
             }
         case .profile:
-            TabMenuViewComponent(is_active: self.is_active, type: .profile, text: "Профиль", activeImage: Resources.System.personfill.assetName, inactiveImage: Resources.System.person.assetName)
+            TabMenuViewComponent(is_active: self.is_active, type: .profile, text: "Профиль", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
                     is_active = .profile

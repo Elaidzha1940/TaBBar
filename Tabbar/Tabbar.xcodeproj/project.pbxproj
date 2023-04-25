@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E40CB80829F83DDD00B278FD /* TabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB80729F83DDD00B278FD /* TabbarApp.swift */; };
-		E40CB80A29F83DDD00B278FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB80929F83DDD00B278FD /* ContentView.swift */; };
+		E40CB80A29F83DDD00B278FD /* HomeVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB80929F83DDD00B278FD /* HomeVeiw.swift */; };
 		E40CB80C29F83DDD00B278FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40CB80B29F83DDD00B278FD /* Assets.xcassets */; };
 		E40CB81029F83DDD00B278FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40CB80F29F83DDD00B278FD /* Preview Assets.xcassets */; };
 		E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */; };
 		E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81829F83EF900B278FD /* TabMenu.swift */; };
+		E40CB81B29F83FC600B278FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81A29F83FC600B278FD /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E40CB80429F83DDD00B278FD /* Tabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40CB80729F83DDD00B278FD /* TabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarApp.swift; sourceTree = "<group>"; };
-		E40CB80929F83DDD00B278FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E40CB80929F83DDD00B278FD /* HomeVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVeiw.swift; sourceTree = "<group>"; };
 		E40CB80B29F83DDD00B278FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E40CB80D29F83DDD00B278FD /* Tabbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tabbar.entitlements; sourceTree = "<group>"; };
 		E40CB80F29F83DDD00B278FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuViewComponent.swift; sourceTree = "<group>"; };
 		E40CB81829F83EF900B278FD /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		E40CB81A29F83FC600B278FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,19 @@
 		E40CB80629F83DDD00B278FD /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				E45722BC29F84236008429A6 /* Home */,
+				E45722BE29F84290008429A6 /* Tape */,
+				E45722BF29F842A4008429A6 /* Chats */,
+				E45722C029F842B4008429A6 /* Calendar */,
+				E45722C129F842C0008429A6 /* Progile */,
 				E40CB80729F83DDD00B278FD /* TabbarApp.swift */,
-				E40CB80929F83DDD00B278FD /* ContentView.swift */,
+				E40CB80929F83DDD00B278FD /* HomeVeiw.swift */,
 				E40CB80B29F83DDD00B278FD /* Assets.xcassets */,
 				E40CB80D29F83DDD00B278FD /* Tabbar.entitlements */,
 				E40CB80E29F83DDD00B278FD /* Preview Content */,
 				E40CB81629F83E5600B278FD /* TabMenuViewComponent.swift */,
 				E40CB81829F83EF900B278FD /* TabMenu.swift */,
+				E40CB81A29F83FC600B278FD /* MainView.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -73,6 +81,41 @@
 				E40CB80F29F83DDD00B278FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E45722BC29F84236008429A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E45722BE29F84290008429A6 /* Tape */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tape;
+			sourceTree = "<group>";
+		};
+		E45722BF29F842A4008429A6 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		E45722C029F842B4008429A6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E45722C129F842C0008429A6 /* Progile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Progile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +190,8 @@
 			files = (
 				E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */,
 				E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */,
-				E40CB80A29F83DDD00B278FD /* ContentView.swift in Sources */,
+				E40CB80A29F83DDD00B278FD /* HomeVeiw.swift in Sources */,
+				E40CB81B29F83FC600B278FD /* MainView.swift in Sources */,
 				E40CB80829F83DDD00B278FD /* TabbarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
