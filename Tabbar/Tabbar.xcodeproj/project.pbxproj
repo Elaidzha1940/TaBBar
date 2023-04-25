@@ -16,6 +16,7 @@
 		E40CB81B29F83FC600B278FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40CB81A29F83FC600B278FD /* MainView.swift */; };
 		E45722C329F84338008429A6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C229F84338008429A6 /* HomeView.swift */; };
 		E45722C529F8439B008429A6 /* TapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C429F8439B008429A6 /* TapeView.swift */; };
+		E45722C729F84400008429A6 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C629F84400008429A6 /* ChatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E40CB81A29F83FC600B278FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E45722C229F84338008429A6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E45722C429F8439B008429A6 /* TapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeView.swift; sourceTree = "<group>"; };
+		E45722C629F84400008429A6 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		E45722BF29F842A4008429A6 /* Chats */ = {
 			isa = PBXGroup;
 			children = (
+				E45722C629F84400008429A6 /* ChatsView.swift */,
 			);
 			path = Chats;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45722C729F84400008429A6 /* ChatsView.swift in Sources */,
 				E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */,
 				E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */,
 				E40CB80A29F83DDD00B278FD /* HomeVeiw.swift in Sources */,
