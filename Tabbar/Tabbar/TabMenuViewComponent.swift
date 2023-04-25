@@ -25,10 +25,12 @@ struct TabMenuViewComponent: View {
                 .background (
                     RoundedRectangle(cornerRadius: 16)
                         .frame(width: 65, height: 35)
-                        .foregroundColor(is_active == type ? Color.init(toElement: .blueprimary) : .clear)
+                        .foregroundColor(is_active == type ? Color.brown : .clear)
                 )
             Text(text)
-                .soffitMenuFont()
-                .foregroundColor(is_active == type ? Color.init(toElement: .blueenabled) : Color.init(toElement: .blueinactive))
-             
+            //.soffitMenuFont()
+                .foregroundColor(is_active == type ? Color.red : Color.red)
+            
         }
+    }
+}

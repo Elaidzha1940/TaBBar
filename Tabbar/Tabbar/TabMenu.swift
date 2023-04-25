@@ -26,11 +26,11 @@ struct TabMenu: View {
                 }
             }
 
-        case .lenta:
-            TabMenuViewComponent(is_active: self.is_active, type: .lenta, text: "Лента", activeImage: "", inactiveImage: "")
+        case .tape:
+            TabMenuViewComponent(is_active: self.is_active, type: .tape, text: "Лента", activeImage: "", inactiveImage: "")
             .onTapGesture {
                 withAnimation {
-                    is_active = .lenta
+                    is_active = .tape
                 }
             }
           
@@ -61,7 +61,7 @@ struct TabMenu: View {
     var body: some View {
         HStack(alignment: .bottom, spacing: 30) {
             getTabButton(type: .home)
-            getTabButton(type: .lenta)
+            getTabButton(type: .tape)
             getTabButton(type: .chats)
             getTabButton(type: .calendar)
             getTabButton(type: .profile)

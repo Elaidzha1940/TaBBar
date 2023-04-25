@@ -9,7 +9,7 @@ import SwiftUI
 
 
 enum MenuType: String {
-    case home, lenta, chats, calendar, profile
+    case home, tape, chats, calendar, profile
 }
 
 
@@ -27,7 +27,7 @@ struct MainView: View {
                         switch is_active {
                         case .home:
                             HomeView()
-                        case .lenta:
+                        case .tape:
                             TapeView()
                         case .chats:
                             ChatsView()
