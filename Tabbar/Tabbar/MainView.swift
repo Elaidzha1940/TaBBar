@@ -28,7 +28,7 @@ struct MainView: View {
                         case .home:
                             HomeView()
                         case .lenta:
-                            LentaView()
+                            TapeView()
                         case .chats:
                             ChatsView()
                         case .calendar:

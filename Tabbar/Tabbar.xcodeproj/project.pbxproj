@@ -18,6 +18,7 @@
 		E45722C529F8439B008429A6 /* TapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C429F8439B008429A6 /* TapeView.swift */; };
 		E45722C729F84400008429A6 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C629F84400008429A6 /* ChatsView.swift */; };
 		E45722C929F84463008429A6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722C829F84463008429A6 /* CalendarView.swift */; };
+		E45722CB29F844BE008429A6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45722CA29F844BE008429A6 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E45722C429F8439B008429A6 /* TapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeView.swift; sourceTree = "<group>"; };
 		E45722C629F84400008429A6 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		E45722C829F84463008429A6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E45722CA29F844BE008429A6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		E45722C129F842C0008429A6 /* Progile */ = {
 			isa = PBXGroup;
 			children = (
+				E45722CA29F844BE008429A6 /* ProfileView.swift */,
 			);
 			path = Progile;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				E45722C729F84400008429A6 /* ChatsView.swift in Sources */,
 				E40CB81929F83EF900B278FD /* TabMenu.swift in Sources */,
+				E45722CB29F844BE008429A6 /* ProfileView.swift in Sources */,
 				E40CB81729F83E5600B278FD /* TabMenuViewComponent.swift in Sources */,
 				E40CB80A29F83DDD00B278FD /* HomeVeiw.swift in Sources */,
 				E45722C529F8439B008429A6 /* TapeView.swift in Sources */,
